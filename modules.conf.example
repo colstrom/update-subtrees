@@ -1,0 +1,6 @@
+some_module:
+  remote: "/path/to/remote/repo"
+  version: "0.1.0"
+other_module:
+  remote: "/path/to/other/remote/repo"
+  version: "0.2.0"
