@@ -96,7 +96,9 @@ Installing git-subtree
 ----------------------
 
 With cURL!
+
 	curl -o /usr/local/bin/git-subtree https://raw.github.com/git/git/master/contrib/subtree/git-subtree.sh
 
 With Wget (if for some reason you don't have curl)
+
 	wget -O /usr/local/bin/git-subtree https://raw.github.com/git/git/master/contrib/subtree/git-subtree.sh
