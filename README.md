@@ -87,9 +87,11 @@ Usage
 Edit modules.conf, structure is YAML.
 
 On the first run...
+
 	update-subtrees.rb init
 
 To update to the versions specified in modules.conf...
+
 	update-subtrees.rb
 
 Installing git-subtree
