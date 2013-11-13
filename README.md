@@ -76,10 +76,10 @@ Because submodules don't play nice with overlapping directory structures.
 
 Dependencies
 ------------
-git
-git-subtree from [git/contrib](https://github.com/git/git/tree/master/contrib/subtree)
-ruby
-ruby-yaml
+* git
+* git-subtree from [git/contrib](https://github.com/git/git/tree/master/contrib/subtree)
+* ruby
+* ruby-yaml
 
 Usage
 -----
@@ -91,3 +91,12 @@ On the first run...
 
 To update to the versions specified in modules.conf...
 	update-subtrees.rb
+
+Installing git-subtree
+----------------------
+
+With cURL!
+	curl -o /usr/local/bin/git-subtree https://raw.github.com/git/git/master/contrib/subtree/git-subtree.sh
+
+With Wget (if for some reason you don't have curl)
+	wget -O /usr/local/bin/git-subtree https://raw.github.com/git/git/master/contrib/subtree/git-subtree.sh
