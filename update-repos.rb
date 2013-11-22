@@ -15,12 +15,10 @@ case command
 			puts "Working on module #{name}"
 			puts `git #{command} #{data['remote']} #{name} && cd #{name} && git checkout #{data['version']}`
 		end
-	end
 	when "pull"
 		modules.each do |name, data|
 			puts "Working on module #{name}"
 			puts `cd #{name} && git #{command} && git checkout #{data['version']}`
 		end
-	end
 end
 
